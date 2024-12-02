@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    margin: 0 auto;
+    padding: 20px;
+    width: 1200px;
+    height: 500px;
+    background-color: rgb(173, 216, 230); /* Light Blue */
+    color: rgb(10, 34, 68); /* Dark Blue */
+    font-family: "Mali", serif;
+    font-weight: 500;
+    font-style: normal;
+    border-radius: 15px;
+    border: rgb(173, 216, 230) solid 3px; /* Light Blue */
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    padding: 20px;
+    width: 100%;
+    height: 500px;
+}
+input {
+    padding: 15px;
+    border: 2px solid rgb(100, 149, 237); /* Cornflower Blue */
+    outline: none;
+    border-radius: 10px;
+}
+button {
+    color: white;
+    background-color: rgb(10, 34, 68); /* Dark Blue */
+    padding: 15px;
+    border: 2px solid rgb(10, 34, 68); /* Dark Blue */
+    border-radius: 10px;
+    width: 120px;
+    outline: none;
+    font-family: "Mali", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+button:hover {
+    background-color: transparent;
+    color: rgb(10, 34, 68); /* Dark Blue */
+    border: 2px solid rgb(10, 34, 68); /* Dark Blue */
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color: #102A42;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 3px solid #1F7A8C;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.info {
+    max-width: 600px;
+}
+
+.info h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #FFD700;
+}
+
+.info p {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
